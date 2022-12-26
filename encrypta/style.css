@@ -133,6 +133,14 @@ button{
     color: var(--primary);
 }
 
+.input-section-info{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-sm);
+    width: 100%;
+    color: var(--primary-transparent);
+}
+
 .input-section-buttons{
     display: flex;
     align-items: center;
@@ -178,7 +186,6 @@ button{
 #output-img{
     width: 300px;
     min-width: 200px;
-    filter: invert(100%);
 }
 
 /* buttons */

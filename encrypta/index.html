@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    <script defer src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="./index.js"></script>
     <title>Encrypta | Start encrypting</title>
     <link rel="stylesheet" href="./style.css"/>
     <link rel="icon" href="./public/logo.png"/>
@@ -19,6 +21,10 @@
         <main id="main">
             <section class="input-section">
                 <textarea placeholder="Type something to encrypt/decrypt" id="textarea"></textarea>
+                <div class="input-section-info">
+                    <i class="ph-info-bold"></i>
+                    <p>Just lowercase lowercase without accents</p>
+                </div>
                 <div class="input-section-buttons">
                     <button type="button" class="primary-button" id="encrypt-button">Encrypt</button>
                     <button type="button" class="secondary-button" id="decrypt-button">Decrypt</button>
@@ -41,6 +47,5 @@
             </h2>
         </footer>
     </div>
-    <script src="./index.js"></script>
 </body>
 </html>
