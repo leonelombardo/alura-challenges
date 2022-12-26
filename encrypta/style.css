@@ -261,6 +261,10 @@ button{
         padding-top: 0;
     }
 
+    .input-section-info{
+        font-size: var(--font-xs);
+    }
+
     #textarea, #textarea::placeholder{
         font-size: var(--font-sm)
     }
