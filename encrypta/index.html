@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Encrypta | Start encrypting</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="./public/logo.png"/>
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <h1 class="header-h1">Encrypta</h1>
+        </header>
+        <main id="main">
+            <section class="input-section">
+                <textarea placeholder="Type something to encrypt/decrypt" id="textarea"></textarea>
+                <div class="input-section-buttons">
+                    <button type="button" class="primary-button" id="encrypt-button">Encrypt</button>
+                    <button type="button" class="secondary-button" id="decrypt-button">Decrypt</button>
+                </div>
+            </section>
+            <section class="output-section">
+                <div id="output">
+                    <img src="./public/waiting.svg" id="output-img"/>
+                    <h2 class="output-h2">There are no messages</h2>
+                    <p class="output-description">Start typing whatever you want to encrypt/decrypt</p>
+                </div>
+                <button type="button" class="secondary-button" id="copy-button">Copy</button>
+            </section>
+        </main>
+        <footer id="footer">
+            <h2 class="footer-h2">This project was built by
+                    <a href="https://linkedin.com/in/leonelombardo" target="_blank" class="footer-link">
+                        Leonel Lombardo
+                    </a>
+            </h2>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
